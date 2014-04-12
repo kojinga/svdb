@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Gulp Setup</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/all.min.js"></script>
+    <script src="scripts/libraries.min.js"></script>
+</head>
+<body>
+    <img class="padding-20" src="https://raw2.github.com/gulpjs/artwork/master/gulp-2x.png" alt="">
+    <div class="right">
+        <h1>This is a basic Gulp setup.</h1>
+        <p>The <code>gulpfile.js</code> will do the following things:</p>
+        <ul>
+            <li>Process HTML files in <code>./src/</code></li>
+            <li>Process Jade files in <code>./src/templates/</code></li>
+            <li>Process Sass files in <code>./src/styles/</code></li>
+            <li>Process script files in <code>./src/scripts/</code></li>
+            <li>Process JS libraries in <code>./src/scripts/libs/</code></li>
+            <li>Create a server on <code>http://localhost:8080</code></li>
+            <li><em>Watch that server</em> for changes</li>
+        </ul>
+        <p>It also lints the scripts, concatinates and minifies scripts into a single file and libraries into another. It processes and minifies Jade and HTML.</p>
+        <p>In order to run this, you will need <a href="http://nodejs.org/">NodeJS</a> and <a href="http://gulpjs.com/">Gulp</a>. In your local project, install dependencies defined in <code>package.json</code> by running <code>npm install</code>.</p>
+        <hr>
+        <p>You can find this setup at <a href="#">GitHub</a> and me on <a href="https://twitter.com/svdb">@svdb</a>.</p>
+        <img src="http://placehold.it/240x120/ccc/121315&text=Gulp+Rocks!" alt="">
+    </div>
+</body>
+</html>
